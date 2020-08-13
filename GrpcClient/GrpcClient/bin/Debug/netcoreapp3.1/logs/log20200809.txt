@@ -1,0 +1,552 @@
+
+
+Date：2020-08-09 13:16:08.392
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:16:08.623
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'DuplexStreaming', URI: 'https://localhost:5001/EmployeeService/SaveAll'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:16:09.082
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:16:09.090
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:16:09.092
+LogLevel：Debug
+Message：Completing client stream.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:16:09.242
+LogLevel：Debug
+Message：Reading message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:16:09.347
+LogLevel：Debug
+Message：Reading message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:16:09.348
+LogLevel：Debug
+Message：Reading message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:16:09.351
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:18:38.753
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:18:39.019
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'DuplexStreaming', URI: 'https://localhost:5001/EmployeeService/SaveAll'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:18:39.407
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:18:39.416
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:18:39.419
+LogLevel：Debug
+Message：Completing client stream.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:18:39.491
+LogLevel：Debug
+Message：Reading message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:18:39.576
+LogLevel：Debug
+Message：saved: { "no": 666, "firstName": "lll", "lastName": "H" }
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:18:39.578
+LogLevel：Debug
+Message：Reading message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:18:39.578
+LogLevel：Debug
+Message：saved: { "no": 777, "firstName": "qqq", "lastName": "G" }
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:18:39.579
+LogLevel：Debug
+Message：Reading message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:18:39.582
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:29:40.644
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:29:40.913
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/GetByNo'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:29:41.520
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:29:42.230
+LogLevel：Debug
+Message：Reading message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:29:42.243
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:30:34.191
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:30:34.456
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/GetByNo'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:30:34.837
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:30:34.876
+LogLevel：Debug
+Message：Reading message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:30:34.891
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:31:13.650
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:31:13.929
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/GetByNo'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:31:14.368
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:31:23.430
+LogLevel：Information
+Message：Call failed with gRPC error status. Status code: 'Cancelled', Message: 'null'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:31:23.432
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 13:31:23.460
+LogLevel：Error
+Message：Status(StatusCode="Cancelled", Detail="")
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:23:44.746
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:23:45.044
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/GetByNo'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:23:45.562
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:23:52.810
+LogLevel：Information
+Message：Call failed with gRPC error status. Status code: 'NotFound', Message: '"No is not found..."'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:23:52.814
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:23:52.844
+LogLevel：Error
+Message：Status(StatusCode="NotFound", Detail="No is not found...")
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:27:58.377
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:27:58.664
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/GetByNo'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:27:59.118
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:28:06.598
+LogLevel：Information
+Message：Call failed with gRPC error status. Status code: 'NotFound', Message: '"No is not found..."'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:28:06.602
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:28:06.629
+LogLevel：Error
+Message：trailer: Grpc.Core.Metadata
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 17:28:06.630
+LogLevel：Error
+Message：Status(StatusCode="NotFound", Detail="No is not found...")
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 20:36:55.558
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 20:36:55.915
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/GetByNo'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 20:36:56.460
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 20:36:56.633
+LogLevel：Information
+Message：Call failed with gRPC error status. Status code: 'Unauthenticated', Message: '"Bad gRPC response. HTTP status code: 401"'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 20:36:56.636
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 20:36:56.680
+LogLevel：Error
+Message：Status(StatusCode="Unauthenticated", Detail="Bad gRPC response. HTTP status code: 401")
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 21:59:19.661
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 22:00:31.863
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/CreateToken'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 22:00:32.329
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 22:01:15.331
+LogLevel：Debug
+Message：Reading message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 22:01:15.340
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 22:01:37.405
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/GetByNo'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 22:01:37.409
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 22:02:09.580
+LogLevel：Debug
+Message：Reading message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 22:02:09.584
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 22:02:09.604
+LogLevel：Debug
+Message：response message : { "employee": { "id": 1, "no": 111, "firstName": "zhangsan", "lastName": "a", "MonthSalary": { "basic": 4584, "bonus": 334.2 }, "LastModied": "2020-08-09T14:02:03.835904800Z" } }
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:50:33.122
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:50:33.404
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/CreateToken'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:50:33.889
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:50:34.259
+LogLevel：Information
+Message：Call failed with gRPC error status. Status code: 'Unknown', Message: '"Exception was thrown by handler."'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:50:34.264
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:50:34.324
+LogLevel：Error
+Message：Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:51:37.236
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:51:37.550
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/CreateToken'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:51:38.062
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:51:38.330
+LogLevel：Information
+Message：Call failed with gRPC error status. Status code: 'Unknown', Message: '"Exception was thrown by handler."'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:51:38.331
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:51:38.388
+LogLevel：Error
+Message：Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:52:09.465
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:52:09.725
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/CreateToken'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:52:10.167
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:52:10.574
+LogLevel：Information
+Message：Call failed with gRPC error status. Status code: 'Unknown', Message: '"Exception was thrown by handler."'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:52:10.576
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:52:10.636
+LogLevel：Error
+Message：Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:55:43.155
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:55:43.414
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/CreateToken'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:55:43.926
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:55:44.255
+LogLevel：Information
+Message：Call failed with gRPC error status. Status code: 'Unknown', Message: '"Exception was thrown by handler."'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:55:44.258
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:55:44.345
+LogLevel：Error
+Message：Status(StatusCode="Unknown", Detail="Exception was thrown by handler.")
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:15.878
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:16.105
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/CreateToken'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:20.350
+LogLevel：Error
+Message：Error starting gRPC call.
+System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:20.411
+LogLevel：Information
+Message：Call failed with gRPC error status. Status code: 'Internal', Message: '"Error starting gRPC call. HttpRequestException: 由于目标计算机积极拒绝，无法连接。 SocketException: 由于目标计算机积极拒绝，无法连接。"'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:20.415
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:20.428
+LogLevel：Debug
+Message：gRPC call canceled.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:20.459
+LogLevel：Error
+Message：Status(StatusCode="Internal", Detail="Error starting gRPC call. HttpRequestException: 由于目标计算机积极拒绝，无法连接。 SocketException: 由于目标计算机积极拒绝，无法连接。", DebugException="System.Net.Http.HttpRequestException: 由于目标计算机积极拒绝，无法连接。
+ ---> System.Net.Sockets.SocketException (10061): 由于目标计算机积极拒绝，无法连接。
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttp2ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at Grpc.Net.Client.Internal.GrpcCall`2.RunCall(HttpRequestMessage request, Nullable`1 timeout)")
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:46.907
+LogLevel：Information
+Message：client starting...
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:47.131
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/CreateToken'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:47.688
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:48.358
+LogLevel：Debug
+Message：Reading message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:48.393
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:48.403
+LogLevel：Debug
+Message：Starting gRPC call. Method type: 'Unary', URI: 'https://localhost:5001/EmployeeService/GetByNo'.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:48.405
+LogLevel：Debug
+Message：Sending message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:48.550
+LogLevel：Debug
+Message：Reading message.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:48.553
+LogLevel：Debug
+Message：Finished gRPC call.
+----------------------------------------------------------------------------------------------------
+
+Date：2020-08-09 23:58:48.665
+LogLevel：Debug
+Message：response message : { "employee": { "id": 1, "no": 111, "firstName": "zhangsan", "lastName": "a", "MonthSalary": { "basic": 4584, "bonus": 334.2 }, "LastModied": "2020-08-09T15:58:48.533522400Z" } }
+----------------------------------------------------------------------------------------------------

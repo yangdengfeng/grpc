@@ -1,0 +1,4 @@
+obj\Debug\netcoreapp3.1/Message.cs \
+obj\Debug\netcoreapp3.1/MessageGrpc.cs: ../../GrpcService/GrpcService.web/Protos/Enums.proto\
+ C:/Users/15474/.nuget/packages/grpc.tools/2.31.0/build/native/include/google/protobuf/Timestamp.proto\
+ ../../GrpcService/GrpcService.web/Protos/Message.proto
